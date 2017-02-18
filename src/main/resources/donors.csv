@@ -1,0 +1,6 @@
+firstName,lastName,title,organization,donatedAmount,joinDate,portfolioType,involvement,history,expertise
+Bob,Matthews,Mr.,HackChicago,"3000",2014-01-20,Homeless Innovation Fund,Expertise,Gala,
+Sara,Andrews,,UIUC,"4000",2015-02-12,Women's Innovation Fund,Volunteering,Scaling building,
+Samarth,J,Mr,UIUC,400,2015-05-13,"Veteran's Innovation Fund, Homeless Innovation Fund","Volunteering, Expertise","Skydiving, Scaling building",
+Gold,Fish,Mr.,Pepperidge Farm,159,2016-07-01,Goldfish,Expertise,Scaling building,
+Ritz,Bits,Mr.,Ritz,300,2013-12-12,"Veteran's Innovation Fund, Homeless Innovation Fund",Fundraising Events,etc,
