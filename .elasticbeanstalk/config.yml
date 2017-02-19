@@ -3,16 +3,16 @@ branch-defaults:
     environment: dev
     group_suffix: null
   master:
-    environment: dev
+    environment: spring-boot-aws-elasti
     group_suffix: null
 deploy:
   artifact: target/invest-0.0.1-SNAPSHOT.jar
 global:
   application_name: spring-boot-aws-elasticbeanstalk-hackchicago
   branch: null
-  default_ec2_keyname: aws
+  default_ec2_keyname: aws-eb
   default_platform: Java 8
   default_region: us-east-1
   profile: eb-cli
   repository: null
-  sc: null
+  sc: git

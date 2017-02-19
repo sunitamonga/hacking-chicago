@@ -8,7 +8,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>spring-boot-aws-elasticbeanstalk-hackchicago</name>
+	<name>spring-boot-aws-elasticbeanstalk-investchicago</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
@@ -75,6 +75,20 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>br.com.ingenieux</groupId>
+				<artifactId>beanstalk-maven-plugin</artifactId>
+				<version>1.5.0</version>
+				<configuration>
+					<applicationName>spring-boot-aws-elasticbeanstalk-investchicago</applicationName>
+					<s3Bucket>hackchicago</s3Bucket>
+					<s3Key>${project.artifactId}/${project.build.finalName}.jar</s3Key>
+					<cnamePrefix>spring-boot-aws-elasticbeanstalk-investchicago-dev</cnamePrefix>
+					<environmentName>dev</environmentName>
+					<environmentRef>dev</environmentRef>
+					<solutionStack>64bit Amazon Linux 2016.09 v2.4.0 running Java 8</solutionStack>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
