@@ -76,6 +76,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			<!-- 
 			<plugin>
 				<groupId>br.com.ingenieux</groupId>
 				<artifactId>beanstalk-maven-plugin</artifactId>
@@ -89,9 +90,8 @@
 					<environmentRef>dev</environmentRef>
 					<solutionStack>64bit Amazon Linux 2016.09 v2.4.0 running Java 8</solutionStack>
 				</configuration>
-			</plugin>
+			</plugin> -->
 		</plugins>
 	</build>
-
 
 </project>
